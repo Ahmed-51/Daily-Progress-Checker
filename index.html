@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Daily Progress</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+</head>
+
+
+<body onload="justLoaded()" class="main">
+
+
+  <h1>August 21</h1>
+
+  <label>Day Number : </label> <input id="inp1" type="number" name="day" class="box">
+  <label>Score : </label> <input id="inp2" type="number" name="sum" class="box"><br><br>
+
+  <br>
+
+  <button type="button" class="button" onclick='calculate()'>Calculate Todays Success</button>
+
+
+
+  <br><br><br>
+
+
+  <div class="primary">
+    <div class="secondary nobordertop"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+  </div>
+  <div class="primary">
+    <div class="secondary nobordertop"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+  </div>
+  <div class="primary">
+    <div class="secondary nobordertop"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+  </div>
+  <div class="primary">
+    <div class="secondary nobordertop"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+  </div>
+  <div class="primary">
+    <div class="secondary nobordertop"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+  </div>
+  <div class="primary">
+    <div class="secondary nobordertop"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+  </div>
+  <div class="primary">
+    <div class="secondary nobordertop"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+  </div>
+  <div class="primary">
+    <div class="secondary nobordertop"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+  </div>
+  <div class="primary">
+    <div class="secondary nobordertop"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+  </div>
+  <div class="primary">
+    <div class="secondary nobordertop"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+  </div>
+  <div class="primary">
+    <div class="secondary nobordertop"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+  </div>
+  <div class="primary">
+    <div class="secondary nobordertop"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+  </div>
+  <div class="primary">
+    <div class="secondary nobordertop"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+  </div>
+  <div class="primary">
+    <div class="secondary nobordertop"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+  </div>
+  <div class="primary">
+    <div class="secondary nobordertop"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+  </div>
+  <div class="primary">
+    <div class="secondary nobordertop"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+  </div>
+  <div class="primary">
+    <div class="secondary nobordertop"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+  </div>
+  <div class="primary">
+    <div class="secondary nobordertop"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+  </div>
+  <div class="primary">
+    <div class="secondary nobordertop"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+  </div>
+  <div class="primary">
+    <div class="secondary nobordertop"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+  </div>
+  <div class="primary">
+    <div class="secondary nobordertop"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+  </div>
+  <div class="primary">
+    <div class="secondary nobordertop"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+  </div>
+  <div class="primary">
+    <div class="secondary nobordertop"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+  </div>
+  <div class="primary">
+    <div class="secondary nobordertop"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+  </div>
+  <div class="primary">
+    <div class="secondary nobordertop"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+  </div>
+  <div class="primary">
+    <div class="secondary nobordertop"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+  </div>
+
+
+
+  <div class="primary">
+    <div class="secondary nobordertop"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+  </div>
+  <div class="primary">
+    <div class="secondary nobordertop"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+  </div>
+  <div class="primary">
+    <div class="secondary nobordertop"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+  </div>
+  <div class="primary">
+    <div class="secondary nobordertop"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+  </div>
+  <div class="primary borderright">
+    <div class="secondary nobordertop"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+    <div class="secondary"></div>
+  </div>
+
+
+
+  <label class="dont">Don't Click !</label>
+  <button type="button" class="button reset" onclick='reset()'>Reset Everything</button>
+
+
+  <script src="action.js" charset="utf-8"></script>
+</body>
+
+</html>
